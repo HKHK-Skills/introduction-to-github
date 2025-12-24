@@ -1,7 +1,22 @@
 <header>
+<!--
+  <<< Author notes: Course header >>>
+  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
+  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
+  Add your open source license, GitHub uses MIT license.
+-->
+
 # Sissejuhatus GitHubi
+
 _Alusta GitHubi kasutamist vähem kui tunniga._
+
 </header>
+
+<!--
+  <<< Author notes: Course start >>>
+  Include start button, a note about Actions minutes,
+  and tell the learner why they should take the course.
+-->
 
 ## Tere tulemast
 
@@ -22,6 +37,17 @@ Sellel kursusel sa:
 
 ### Kuidas alustada seda kursust
 
+<!-- For start course, run in JavaScript:
+'https://github.com/new?' + new URLSearchParams({
+  template_owner: 'HKHK-Skills',
+  template_name: 'introduction-to-github',
+  owner: '@me',
+  name: 'skills-introduction-to-github',
+  description: 'Minu kursuse repo',
+  visibility: 'public',
+}).toString()
+-->
+
 [![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=HKHK-Skills&template_name=introduction-to-github&owner=%40me&name=skills-introduction-to-github&description=Minu+kursuse+repo&visibility=public)
 
 1. Tee paremklikk nupul **Start course** ja ava link uuel vahekaardil.
@@ -32,6 +58,10 @@ Sellel kursusel sa:
 3. Pärast uue repositooriumi loomist oota umbes 20 sekundit, seejärel värskenda lehte. Järgi samm-sammult juhiseid uue repositooriumi README-s.
 
 <footer>
+<!--
+  <<< Author notes: Footer >>>
+  Add a link to get support, GitHub status page, code of conduct, license link.
+-->
 
 ---
 
